@@ -23,10 +23,20 @@ Operating System: Windows 10
 1) Clone the repository
 2) Open up your python CLI and activate the dev environment. Python version 3.7.10 needs to be used.
 3) Navigate to the "Financial_Planner_App" folder and run "jupyter lab" command to open the jupyter lab interface.
-4) In Jupyter lab, select the "finalrisk_return_analysis" file, it is located in the "Starter_Code" folder within the "final_financial_planning_tools.ipynb" folder.
-5) Users may have to create a ".env" folder and input their API Keys.
-6) From there, you can run the program to see current value of your holdings, while the simulation will give you a range of returns that you can possibly expect.
-7) When the application has been fully run the user will have an idea of their current financial position and what returns to potentially expect. 
+4) In Jupyter lab, select the "finalrisk_return_analysis" file, it is located in the "Starter_Code" folder within the "final_financial_planning_tools.ipynb" 
+folder.
+5) Ensure that the dates selected for "today_date", "start_date", and "end_date" are days the market is open. Error message or no data will appear if non-trading days are used.
+6) Users may have to create a ".env" folder and input their API Keys.
+7) From there, you can run the program to see current value of your holdings, while the simulation will give you a range of returns that you can possibly expect.
+8) When the application has been fully run the user will have an idea of their current financial position and what returns to potentially expect. 
+
+**Usage Examples**
+
+![markdown-image](retirement1.PNG)
+This image shows the data pulled for SPy stock and AGG bond when a non-trading day is selected.
+
+![markdown-image](retirement.2.PNG)
+This image shows the error message that appears due to a non-trading day being used in the earlier image.
 
 **Contributors**
 
