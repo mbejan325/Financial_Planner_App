@@ -33,7 +33,7 @@ folder.
 **Usage Examples**
 
 ![markdown-image](retirement1.PNG)
-This image shows the data pulled for SPy stock and AGG bond when a non-trading day is selected.
+This image shows the data pulled for SPY stock and AGG bond when a non-trading day is selected.
 
 ![markdown-image](retirement2.PNG)
 This image shows the error message that appears due to a non-trading day being used in the earlier image.
