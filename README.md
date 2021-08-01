@@ -4,14 +4,18 @@
 
 ![markdown-image](retirement.jpg)
 
-This project contains the files to an application that calculates current value of members of a credit union reitrement portfolios. The portfolio can be composed of, like in this scenario, crytpocurrencies like Bitcoin and Ethereum, bonds like AGG, and stocks like SPY. Using API calls, it fetches the current pricing on included securities and then will run a 10 and 30 year simulation with different stock/bond portfolio allocation to see what potential returns would be at the end of the periods. The goal is to have enough after 10 years in a portfolio heavily weighted in stocks to retire comfortably. 
+This project contains the files to an application that helps calculate a monthly budget, the current value of members of a credit union portfolios, and forecast future returns. The portfolio can be composed of, like in this scenario, crytpocurrencies like Bitcoin and Ethereum, bonds like AGG, and stocks like SPY. Using API calls, it fetches the current pricing on included securities and then will run a 10 and 30 year simulation with different stock/bond portfolio allocation to see what potential returns would be at the end of the periods. The goal is to have enough after 10 years in a portfolio heavily weighted in stocks to retire comfortably. 
 
 **Technologies** 
 
 Programming Language: Python 3.7.10 
+
 Libraries: Pandas, NumPy, matplotlib, OS, Json, Alpaca Trade API, Datetime, Requests, MCForecastTools 
+
 Frameworks: N/A 
+
 Dependencies: Dotenv
+
 Operating System: Windows 10
 
 **Installation Guide** To run this application please follow the following steps:
